@@ -1,0 +1,6 @@
+# expect: kink@4:7, seam@4:7, table@4:7, box@4:8, kink@5:8
+┌──────┐
+│ ok   │
+│ bad │
+│ ok   │
+└──────┘

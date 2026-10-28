@@ -1,0 +1,4 @@
+# expect: connect@4:1, box@4:2, connect@4:8
+┌──────┐
+│ box  │
+└      ┘

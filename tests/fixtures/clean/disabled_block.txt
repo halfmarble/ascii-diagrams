@@ -1,0 +1,5 @@
+# expect:
+<!-- ascii-diagrams-disable: all -->
+┌──────┐
+│ box   │
+└──────┘

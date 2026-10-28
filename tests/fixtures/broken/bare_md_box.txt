@@ -1,0 +1,8 @@
+# kind: markdown
+# expect: connect@6:9, box@7:9, seam@7:10, connect@8:9
+
+Text.
+
+┌───────┐
+│ Alpha  │
+└───────┘

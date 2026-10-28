@@ -1,0 +1,17 @@
+# expect:
+project/
+┣━━ src/
+┃   ┣━━ main.py
+┃   ┗━━ util.py
+┗━━ README.md
+
+project/
+╠══ src/
+║   ╠══ main.py
+║   ╚══ util.py
+╚══ README.md
+
+project/
+├── src/
+│   ╰── main.py
+╰── README.md

@@ -1,0 +1,8 @@
+# expect:
+project/
+├── src/
+│   ├── main.py
+│   └── util.py
+├── tests/
+│   └── test_main.py
+└── README.md

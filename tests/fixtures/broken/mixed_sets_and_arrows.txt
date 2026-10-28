@@ -1,0 +1,11 @@
+# expect: mixed-set@7:1, mixed-arrows@11:4
+# opts: rules=all
+┌──────┐
+│ one  │
+└──┬───┘
+   ▼
+╔══════╗
+║ two  ║
+╚══╤═══╝
+   │
+   ↓

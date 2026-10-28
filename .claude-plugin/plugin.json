@@ -1,0 +1,40 @@
+{
+  "name": "ascii-diagrams",
+  "version": "0.1.0",
+  "description": "Draw and check ASCII and Unicode box diagrams and tables: a skill with width-aware generators and a checker, plus a hook that checks what is written.",
+  "author": {
+    "name": "halfmarble",
+    "url": "https://halfmarble.com"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/halfmarble/ascii-diagrams",
+  "homepage": "https://github.com/halfmarble/ascii-diagrams",
+  "keywords": [
+    "ascii",
+    "diagrams",
+    "unicode",
+    "box-drawing",
+    "tables",
+    "lint"
+  ],
+  "userConfig": {
+    "python": {
+      "type": "string",
+      "title": "Python interpreter",
+      "description": "Path to a Python 3.9 or newer interpreter. Empty means python3 on PATH.",
+      "default": ""
+    },
+    "extensions": {
+      "type": "string",
+      "title": "Checked extensions",
+      "description": "Comma-separated file extensions whose writes and edits are checked for box diagrams.",
+      "default": ".md,.markdown,.txt"
+    },
+    "triggerCard": {
+      "type": "boolean",
+      "title": "Trigger card",
+      "description": "Add a short reminder to the system prompt to use the ascii-diagrams skill before typing a diagram.",
+      "default": true
+    }
+  }
+}

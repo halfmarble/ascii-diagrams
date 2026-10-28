@@ -1,0 +1,17 @@
+# kind: markdown
+# expect:
+
+Text.
+
+    ┌───────┐
+    │ Alpha │
+    └───────┘
+
+    +-------+
+    | Beta  |
+    +-------+
+
+A paragraph
+    +-------+
+    | not   |
+    +-------+ code

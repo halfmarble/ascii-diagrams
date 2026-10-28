@@ -1,0 +1,5 @@
+# expect: connect@2:8, box@3:8, table@3:9, table@4:9, connect@5:8
+┌──────┐
+│ a     │
+│ b     │
+└──────┘

@@ -1,0 +1,5 @@
+# expect: unstable@3:3, unstable@4:3
+┌────────┐
+│ ✅ ok  │
+│ 😀 hi  │
+└────────┘

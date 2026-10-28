@@ -1,0 +1,8 @@
+# kind: markdown
+# expect: connect@6:9, connect@6:15, connect@6:23, box@7:9, seam@7:10, connect@7:11, ambiguous@7:15, connect@7:16, seam@7:16, seam@7:24, connect@8:9, connect@8:15, connect@8:23
+# note: the expect line pins the checker's current output as a regression; it was re-derived by hand from the geometry
+Text.
+
+┌───────┐     ┌───────┐
+│ Alpha  │────▶│ Beta  │
+└───────┘     └───────┘

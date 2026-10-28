@@ -1,0 +1,19 @@
+# expect:
+# kind: markdown
+Some notes.
+
+```bash
+ls | grep foo | wc -l
+echo "a | b"
+```
+
+| name | size |
+|------|------|
+| a | 1 |
+| bb | 22 |
+
+```text
+┌─────┐
+│ ok  │
+└─────┘
+```

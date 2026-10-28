@@ -1,0 +1,13 @@
+# expect:
++-------+
+| Alpha |
++-------+
+
+| a | b |
+|---|---|
+| 1 | 2 |
+
+a + b = c, run with --flags | pipe
++-- src
+|   +-- main.py
++-- README.md

@@ -1,0 +1,13 @@
+{
+  "name": "ascii-diagrams",
+  "owner": {
+    "name": "halfmarble"
+  },
+  "description": "Draw and check ASCII and Unicode box diagrams and tables with width-aware generators and a checker.",
+  "plugins": [
+    {
+      "name": "ascii-diagrams",
+      "source": "./"
+    }
+  ]
+}

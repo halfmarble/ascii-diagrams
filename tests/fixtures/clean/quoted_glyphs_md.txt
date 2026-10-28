@@ -1,0 +1,26 @@
+# kind: markdown
+# expect:
+
+Name a set by use, not by look.
+
+| Set | Use | Corners | Lines |
+|---|---|---|---|
+| light (default) | ordinary boxes, tables, trees | `┌ ┐ └ ┘` | `─ │` |
+| heavy | emphasis, the thing to look at first | `┏ ┓ ┗ ┛` | `━ ┃` |
+| double | a title, an outer frame | `╔ ╗ ╚ ╝` | `═ ║` |
+| ascii | portable text | `+` | `- =` and `|` |
+
+Mixed junctions join a double line to a single line. A double vertical meeting a single
+horizontal uses `╞ ╟ ╡ ╢`: `╞` single line leaves to the right, `╟` double vertical with a
+single branch right. For horizontal doubles, `╤ ╧ ╪` pair with single verticals, and `╥ ╨ ╫` do
+the reverse.
+
+- Trees use `├─` and `└─` for the branches.
+- Sides use `│` and corners `┌`.
+
+| glyph | meaning |
+|---|---|
+| `├─` | branch |
+| `└─` | last branch |
+
+Double-tick span: ``a ` ┌ ` b`` and ``┐ ┘ └``.
